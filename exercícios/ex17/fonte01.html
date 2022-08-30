@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family:Arial, Helvetica, sans-serif ;
+            /*Medidas absolutas
+            cm, mm, in, px(principal), pt, pc
+
+            Medidas relativas
+            em(principal!!!!!), ex, rem, vw, vh, %
+            16px geralmente é igual a 1em
+            */
+             font-size: 1em;
+            
+             /* lighter normal bold bolder*/
+        }
+        h1{
+            /*
+             font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+
+            shorthand font:
+            (vai condensar todas as configurações em uma só linha de código)
+            ordem:
+             -> font-style -> font-weight, -> font-size, -> font-family */
+             font: italic bolder 3em 'Arial, helvetica, sans-serif';
+        }
+        h2{
+            font: bold 2em 'Arial, Helvetica, sans-serif';
+            /* nao necessariamente precisa colocar todos os atributos do 'font:' mas se for colocá-los obedecer a ordem! */
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis temporibus eligendi animi minima deleniti necessitatibus veritatis, aliquid odio reiciendis tempora voluptates modi, nisi rerum unde perferendis nobis, delectus nihil vitae. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio quae, dolores quas maiores inventore ipsa praesentium voluptatum, at atque ad quaerat minima. Cupiditate consectetur voluptatibus atque dignissimos nulla quaerat hic. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, neque expedita? Pariatur perspiciatis quibusdam, quam eveniet fugit vitae officia mollitia tempore ad, neque sunt? Ullam quia in tenetur deleniti reiciendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, placeat iste perferendis accusamus excepturi natus ad obcaecati est nostrum odit repellendus libero rerum sed. In animi autem nobis dolorum voluptatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, necessitatibus a dolor commodi libero praesentium quos sapiente molestias repellendus illum quidem consequuntur animi ea illo ex, eum aut cum nihil!</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto doloribus nesciunt, unde quo vel fugit pariatur incidunt magnam amet eius, necessitatibus sapiente exercitationem labore veniam perferendis maiores consequatur libero voluptas.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut a inventore porro. Facilis aliquam inventore sequi dolore! Velit unde, amet voluptatum quidem magnam quod facilis perferendis dicta provident magni quam.</p>
+</body>
+</html>
