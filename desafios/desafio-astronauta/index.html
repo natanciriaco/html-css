@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Astronauta</title>
+    <style>
+        body{
+            height: 97vh;
+            margin: 0px;
+            background-color: rgb(0, 0, 75);
+
+        }
+
+        #espaço{
+            position: relative;
+
+            background-image: url(imagens/espaco.jpg);
+            background-position: center center;
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            height: 100vh;
+            width: 100% ;
+            max-width: 100%;
+        }
+
+        #astronauta{
+            position: absolute;
+            background-image: url(imagens/astronauta.png);
+            background-repeat: no-repeat;
+            width: 480px;
+            height: 500px;
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%,-50%);
+        }
+    </style>
+</head>
+<body>
+    <div id="espaço">
+        <div id="astronauta">
+            
+        </div>
+    </div>
+</body>
+</html>
