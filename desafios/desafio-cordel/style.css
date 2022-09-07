@@ -1,34 +1,23 @@
 @charset "UTF-8";
 
-@font-face{
-    font-family:'Header';
-    src: url(fontes/PassionOne-Regular.ttf) format(truetype);
-}
-
-@font-face {
-    font-family: Estrofe;
-    src: url(fontes/Sriracha-Regular.ttf);
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap'); /*fonte header*/
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap'); /*fonte estrofe*/
 
 
-body{
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html,body{
     height: 100vh;
-    min-width: 100%;
+    min-width: 100vh;
     margin: 0px;
 }
 
 header{
-    height: 150px;
-    border-top: 1px solid black;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
     background-color: black;
     color: white;
-    padding: 30px;
     text-align: center;
 }
 
@@ -42,46 +31,41 @@ a:hover{
 }
 
 .cordel{
-    font-family: HeF;
+    font-family: 'Passion One', cursive;
     font-variant: small-caps;
-    font-size: 40px;
     font-weight: normal;
+    font-size: 5vw;
+    padding-top: 50px;
     margin-bottom: 0px;
 }
 
 .milton{
-    font-family: HeF, cursive;
-    font-size: 1em;
+    font-family: 'Passion One', cursive;
+    font-size: 1.5vw;
+    padding-bottom: 50px;
     margin-top: 2px;
 }
 
-.normal{
-    font-family: Estrofe, cursive;
+section{
+    font-family: 'Sriracha', cursive;
+    font-size: 1.9vw;
     font-weight: bold;
-    font-size: 1.5em;
+    line-height: 2em;
     border-left: 1px solid black;
-    border-right: 1px solid black;    line-height: 25px;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-left: 20px;
+    border-right: 1px solid black;  
+    padding-top: 10vh;  
+    padding-bottom: 10vh;
+    padding-left: 30px;
     text-align: left;
 }
 
-.back{
+.imagem{
     background-position: right center;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 500px;
+    height: 300px;
     max-width: 100%;
-
-    font-family: Estrofe, cursive;
-    font-weight: bold;
-    font-size: 1.5em;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    line-height: 25px;
-    text-align: left;
 
     display: flex;
     justify-content: left;
@@ -92,28 +76,17 @@ a:hover{
     background-image: url(imagens/background001.jpg);
   }
 
-.text{
+.insidetext{
+    display:inline-block;
+    padding: 5px;
     background-color: rgba(32, 32, 32, 0.384);
     color: white;
-    height: 360px;
-    width: 300px;
-    padding-left: 20px;
-    padding-top: 3px;
-    padding-bottom: 3px;
+    border-radius: 2px;
     
 }
 
-#estrofe03{
-    margin-bottom: -125px;
-}
-
-
 #back02{
     background-image: url(imagens/background002.jpg);
-}
-
-#estrofe06{
-    margin-bottom: -125px;
 }
 
 footer{
