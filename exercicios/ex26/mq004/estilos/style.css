@@ -9,8 +9,8 @@
     box-sizing: border-box;
 }
 
-body,html{
-    height: 97vh;
+html{
+    height: 100vh;
 }
 
 body{
