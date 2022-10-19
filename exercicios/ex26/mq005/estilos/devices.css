@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+@media print{
+    html{
+        font-size: 1.2em;
+    }
+
+    nav{
+        display: none;
+    }
+}
+
+
+@media screen and (min-width:769px) and (max-width:992px){
+
+}
+
+@media screen and (min-width:993px) and (max-width:1200px){
+
+}
+
+
+@media screen and (min-width:1200px){
+
+}
