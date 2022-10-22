@@ -38,7 +38,7 @@ span#burguer:hover{
 
 nav{
     display: none;
-    background-color: gray;
+    background-color: rgb(146, 146, 146);
     color: white;
 }
 

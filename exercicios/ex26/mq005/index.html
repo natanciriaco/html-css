@@ -9,10 +9,10 @@
     <link rel="stylesheet" href="estilos/mobile.css" media="all">
     <link rel="stylesheet" href="estilos/devices.css">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Meu Site</h1>
-        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <span onselectstart="return false" id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
     </header>
     <nav id="menu">
         <ul>
@@ -33,6 +33,15 @@
         </article>
     </main>
     <script>
+
+        function mudouTamanho(){
+            if (window.innerWidth >= 769){
+            itens.style.display = 'block'
+            } else {
+            itens.style.display = 'none'
+            }
+        }
+
         function clickMenu(){
             if(menu.style.display == 'block'){
                 menu.style.display = 'none'
